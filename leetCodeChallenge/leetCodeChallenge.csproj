@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="problems\_16_3Sum_Closest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="problems\_11_ContainerWithMostWater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
