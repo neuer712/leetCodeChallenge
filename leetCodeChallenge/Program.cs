@@ -1,4 +1,6 @@
-﻿using System;
+﻿using leetCodeChallenge.problems;
+using leetCodeChallenge.problems.BiWeekly.BC68;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +13,14 @@ namespace leetCodeChallenge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Problem 11: Container With Most Water: " + new _11_ContainerWithMostWater().MaxArea(new int[]{1,8,6,2,5,4,8,3,7}));
+            int[] testCase = new int[] { 1, 3, 2 };
+            new _31_NextPermutation().NextPermutation(testCase);
+            foreach(var c in testCase)
+            {
+                Console.WriteLine($" {c }");
+            }
+            
+            Console.ReadLine();
         }
     }
 }
