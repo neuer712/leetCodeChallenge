@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dataStructureLearning\section9_graphTheory\TopoSort.cs" />
     <Compile Include="problems\BiWeekly\BC68\FindAllPossibleRecipesFromGivenSupplies.cs" />
     <Compile Include="problems\BiWeekly\BC68\MaximumNumberofWordsFoundinSentences.cs" />
     <Compile Include="problems\BiWeekly\BC68\Solution3.cs" />
