@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using leetCodeChallenge.dataStructureLearning.section9_graphTheory;
 
 
 namespace leetCodeChallenge
@@ -13,13 +14,18 @@ namespace leetCodeChallenge
     {
         static void Main(string[] args)
         {
-            int[] testCase = new int[] { 1, 3, 2 };
-            new _31_NextPermutation().NextPermutation(testCase);
-            foreach(var c in testCase)
+            Dictionary<string, List<string>> testCase = new Dictionary<string, List<string>>();
+            testCase.Add("v1",(new string[]{"v2","v3","v4"}).ToList());
+            testCase.Add("v2",(new string[]{"v5","v4"}).ToList());
+            testCase.Add("v3",(new string[]{"v6"}).ToList());
+            testCase.Add("v4",(new string[]{"v6","v3","v7"}).ToList());
+            testCase.Add("v5",(new string[]{"v7","v4"}).ToList());
+            testCase.Add("v7",(new string[]{"v6"}).ToList());
+            string[] testResults = TopoSort.GetTopoSortResult(testCase);
+            foreach (var oneSinlgeResult in testResults)
             {
-                Console.WriteLine($" {c }");
+                Console.Write(oneSinlgeResult + ' ');
             }
-            
             Console.ReadLine();
         }
     }
