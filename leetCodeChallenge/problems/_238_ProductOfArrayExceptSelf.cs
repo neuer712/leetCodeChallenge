@@ -17,9 +17,14 @@ namespace leetCodeChallenge.problems
             int[] right = new int[nums.Length];
             right[nums.Length - 1] = 1;
             int i = 0;
+            int leftZero = -1;
             for (; i < nums.Length - 1; i++)
             {
-                if (nums[i] == 0) break;
+                if (nums[i] == 0)
+                {
+                    leftZero = i;
+                    break;
+                }
                 current *= nums[i];
                 left[i + 1] = current;
             }
@@ -33,7 +38,14 @@ namespace leetCodeChallenge.problems
             current = 1;
             for (; i > 0; i--)
             {
-                if (nums[i] == 0) break;
+                if (nums[i] == 0)
+                {
+                    if (leftZero != i && leftZero > -1)
+                    {
+                        return new int[nums.Length];
+                    }
+                    break;
+                }
                 current *= nums[i];
                 right[i - 1] = current;
             }
@@ -51,7 +63,6 @@ namespace leetCodeChallenge.problems
             }
 
             return results;
-
         }
     }
 }
