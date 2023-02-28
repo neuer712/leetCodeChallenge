@@ -55,7 +55,9 @@
     <Compile Include="problems\_16_3Sum_Closest.cs" />
     <Compile Include="problems\_227_BasicCalculatorII.cs" />
     <Compile Include="problems\_232_ImplementQueueUsingStacks.cs" />
+    <Compile Include="problems\_238_ProductOfArrayExceptSelf.cs" />
     <Compile Include="problems\_31_NextPermutation.cs" />
+    <Compile Include="problems\_875_KokoEatingBananas.cs" />
     <Compile Include="problems\_88_MergeSortedArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="problems\_11_ContainerWithMostWater.cs" />
