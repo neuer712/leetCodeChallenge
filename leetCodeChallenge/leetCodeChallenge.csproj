@@ -53,6 +53,7 @@
     <Compile Include="problems\BiWeekly\BC68\FindAllPossibleRecipesFromGivenSupplies.cs" />
     <Compile Include="problems\BiWeekly\BC68\MaximumNumberofWordsFoundinSentences.cs" />
     <Compile Include="problems\BiWeekly\BC68\Solution3.cs" />
+    <Compile Include="problems\_1143_LongestCommonSubsequence.cs" />
     <Compile Include="problems\_16_3Sum_Closest.cs" />
     <Compile Include="problems\_227_BasicCalculatorII.cs" />
     <Compile Include="problems\_232_ImplementQueueUsingStacks.cs" />
