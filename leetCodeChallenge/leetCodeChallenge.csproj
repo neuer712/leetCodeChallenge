@@ -59,6 +59,7 @@
     <Compile Include="problems\_232_ImplementQueueUsingStacks.cs" />
     <Compile Include="problems\_238_ProductOfArrayExceptSelf.cs" />
     <Compile Include="problems\_31_NextPermutation.cs" />
+    <Compile Include="problems\_739_DailyTemperatures.cs" />
     <Compile Include="problems\_875_KokoEatingBananas.cs" />
     <Compile Include="problems\_88_MergeSortedArray.cs" />
     <Compile Include="Program.cs" />
