@@ -14,18 +14,8 @@ namespace leetCodeChallenge
     {
         static void Main(string[] args)
         {
-            Dictionary<string, List<string>> testCase = new Dictionary<string, List<string>>();
-            testCase.Add("v1",(new string[]{"v2","v3","v4"}).ToList());
-            testCase.Add("v2",(new string[]{"v5","v4"}).ToList());
-            testCase.Add("v3",(new string[]{"v6"}).ToList());
-            testCase.Add("v4",(new string[]{"v6","v3","v7"}).ToList());
-            testCase.Add("v5",(new string[]{"v7","v4"}).ToList());
-            testCase.Add("v7",(new string[]{"v6"}).ToList());
-            string[] testResults = TopoSort.GetTopoSortResult(testCase);
-            foreach (var oneSinlgeResult in testResults)
-            {
-                Console.Write(oneSinlgeResult + ' ');
-            }
+            var cal = new _2136_EarliestPossibleDayOfFullBloom();
+            Console.WriteLine(cal.EarliestFullBloom(new int[] { 1,4,3 }, new int[] {2,3,1 }));
             Console.ReadLine();
         }
     }
