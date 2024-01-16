@@ -56,11 +56,13 @@
     <Compile Include="problems\_105_ConstructBinaryTreeFromPreorderAndInorderTraversal.cs" />
     <Compile Include="problems\_1143_LongestCommonSubsequence.cs" />
     <Compile Include="problems\_16_3Sum_Closest.cs" />
+    <Compile Include="problems\_199_BinaryTreeRightSideView.cs" />
     <Compile Include="problems\_2136_EarliestPossibleDayOfFullBloom.cs" />
     <Compile Include="problems\_227_BasicCalculatorII.cs" />
     <Compile Include="problems\_232_ImplementQueueUsingStacks.cs" />
     <Compile Include="problems\_238_ProductOfArrayExceptSelf.cs" />
     <Compile Include="problems\_31_NextPermutation.cs" />
+    <Compile Include="problems\_332_ReconstructItinerary.cs" />
     <Compile Include="problems\_739_DailyTemperatures.cs" />
     <Compile Include="problems\_39_CombinationSum.cs" />
     <Compile Include="problems\_875_KokoEatingBananas.cs" />
