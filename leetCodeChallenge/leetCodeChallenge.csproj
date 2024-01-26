@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="problems\_133_ CloneGraph.cs" />
     <Compile Include="problems\_211_DesignAddandSearchWordsDataStructure_fake.cs" />
     <Compile Include="dataStructureLearning\mockInterviewForYuwei\NumTower.cs" />
     <Compile Include="dataStructureLearning\section9_graphTheory\TopoSort.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="problems\_739_DailyTemperatures.cs" />
     <Compile Include="problems\_39_CombinationSum.cs" />
     <Compile Include="problems\_78_Subsets.cs" />
+    <Compile Include="problems\_79_WordSearch.cs" />
     <Compile Include="problems\_875_KokoEatingBananas.cs" />
     <Compile Include="problems\_88_MergeSortedArray.cs" />
     <Compile Include="problems\_90_SubSet2.cs" />
