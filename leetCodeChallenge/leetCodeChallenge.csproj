@@ -48,6 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="problems\_131_PalindromePartitioning.cs" />
+    <Compile Include="problems\_133_ CloneGraph.cs" />
+    <Compile Include="problems\_211_DesignAddandSearchWordsDataStructure_fake.cs" />
     <Compile Include="dataStructureLearning\mockInterviewForYuwei\NumTower.cs" />
     <Compile Include="dataStructureLearning\section9_graphTheory\TopoSort.cs" />
     <Compile Include="problems\BiWeekly\BC68\FindAllPossibleRecipesFromGivenSupplies.cs" />
@@ -61,12 +64,18 @@
     <Compile Include="problems\_227_BasicCalculatorII.cs" />
     <Compile Include="problems\_232_ImplementQueueUsingStacks.cs" />
     <Compile Include="problems\_238_ProductOfArrayExceptSelf.cs" />
+    <Compile Include="problems\_24_SwapNodesInPairs.cs" />
     <Compile Include="problems\_31_NextPermutation.cs" />
     <Compile Include="problems\_332_ReconstructItinerary.cs" />
+    <Compile Include="problems\_33_SearchInRotatedSortedArray.cs" />
+    <Compile Include="problems\_40_CombinationSumII.cs" />
     <Compile Include="problems\_739_DailyTemperatures.cs" />
     <Compile Include="problems\_39_CombinationSum.cs" />
+    <Compile Include="problems\_78_Subsets.cs" />
+    <Compile Include="problems\_79_WordSearch.cs" />
     <Compile Include="problems\_875_KokoEatingBananas.cs" />
     <Compile Include="problems\_88_MergeSortedArray.cs" />
+    <Compile Include="problems\_90_SubSet2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="problems\_11_ContainerWithMostWater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
